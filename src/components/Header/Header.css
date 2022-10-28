@@ -1,0 +1,22 @@
+.custom-navbar {
+    background-color: #003559;
+    color: #B9D6F2;
+}
+
+.nav-link {
+    color: #B9D6F2;
+}
+
+.dropdown-menu {
+    background-color: #006DAA;
+    color: #B9D6F2;
+}
+
+.dropdown-item {
+    color: #B9D6F2;
+}
+
+.dropdown-item:hover {
+    background-color: #061A40;;
+    color: #B9D6F2;
+}

@@ -1,24 +1,40 @@
-.section1 {
-    background-color: #187795;
-    padding-top: 15%;
-    padding-bottom: 15%;
-}
-
-.grid-container {
-    display: grid;
-    background-color: cornsilk;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-}
-
-.grid-container div {
-    background-color: crimson;
+.divider {
+    width: 80%;
     text-align: center;
-    color: white;
-    border: 1px solid black;
+}
+
+body {
+    background-color: #061A40;
+}
+
+.card {
+    background-color: #0353A4;
+    color: #B9D6F2;
 }
 
 
-.item1 {
-    grid-row: 1 / 3;
+.panel {
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 1.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    width: 100%;
+}
+
+.panel:hover {
+    background-color: #006DAA;
+}
+
+.panel-title {
+    text-align: center;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+}
+
+.panel-item {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
